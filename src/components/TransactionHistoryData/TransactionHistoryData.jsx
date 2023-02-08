@@ -12,7 +12,7 @@ export function TransactionHistoryData({ type, amount, currency }) {
 }
 
 TransactionHistoryData.propTypes = {
-  type: PropTypes.string,
-  amount: PropTypes.string,
-  currency: PropTypes.string,
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.string.isRequired,
+  currency: PropTypes.string.isRequired,
 };
